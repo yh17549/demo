@@ -17,7 +17,7 @@ public class BinarySearchDemo {
 
         Random random = new Random();
 
-        int[] intArrays = generateIntArray(random.nextInt(10) + 20);
+        int[] intArrays = generateOrderedIntArray(random.nextInt(10) + 20);
         System.out.println("array:" + Arrays.toString(intArrays));
 
         int key = random.nextInt(100);
@@ -26,7 +26,7 @@ public class BinarySearchDemo {
         System.out.println("index:" + index);
     }
 
-    private static int[] generateIntArray(int arrayLength) {
+    private static int[] generateOrderedIntArray(int arrayLength) {
         int[] intArray = new int[arrayLength];
 
         Random random = new Random();
