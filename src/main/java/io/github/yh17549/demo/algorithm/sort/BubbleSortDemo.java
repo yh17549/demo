@@ -7,22 +7,18 @@ import java.util.Arrays;
 
 /**
  * @author xyh
- * @date 2018-09-25
+ * @date 2019-02-12
  */
-public class SelectionSortDemo {
+public class BubbleSortDemo {
 
-    public static void main(String[] args) {
-
-        /*
-        选择排序 : 每一次从待排序的数据元素中选出最小（或最大）的一个元素，存放在序列的起始位置，
-        时间复杂度: O(n^2)
-         */
+    public static void main(String[] args){
 
         int[] intArray = ArrayUtils.generateUnorderedIntArray(20);
 
         System.out.println("array:" + Arrays.toString(intArray));
-        int[] orderedIntArray = SortUtils.selectionSort(intArray);
+        int[] orderedIntArray = SortUtils.bubbleSort(intArray);
         System.out.println("orderedIntArray:" + Arrays.toString(orderedIntArray));
     }
+
 
 }
