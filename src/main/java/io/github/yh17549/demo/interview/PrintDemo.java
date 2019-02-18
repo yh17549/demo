@@ -4,7 +4,7 @@ package io.github.yh17549.demo.interview;
  * @author xyh
  * @date 2019-02-14
  */
-public class Demo2 {
+public class PrintDemo {
 
     public static void main(String[] args) {
         // 多线程交替打印数字
