@@ -7,6 +7,7 @@ package io.github.yh17549.demo.interview;
 public class Demo2 {
 
     public static void main(String[] args) {
+        // 多线程交替打印数字
         PrintThread printThread = new PrintThread(5);
         Thread thread1 = new Thread(printThread);
         Thread thread2 = new Thread(printThread);
